@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dbs>
+    <entry title="mysql">
+        <host>127.0.0.1</host>
+        <port>3306</port>
+        <user>root</user>
+        <password>your passward</password>
+        <db>myemployees</db>
+        <tab_name>employees</tab_name>
+        <attr>user,userID,password,email,Tel,ispublic</attr><!-->表中属性名按照顺序数据表中顺序用逗号隔开<-->
+        <service-check>true</service-check>    <!-->配置是否开启服务器监听<-->
+        <bgm>true</bgm><!-->是否播放背景音乐<-->
+    </entry>
+
+</dbs>
